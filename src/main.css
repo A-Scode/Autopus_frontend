@@ -1,4 +1,4 @@
-div.container{
+div.fullcontainer{
     display: flex;
     place-items: center;
     width: 100%;
@@ -12,13 +12,18 @@ div.books_container{
     width: 100%;
     max-width: 900px;
     height: 100%;
-    margin: 120px;
-    gap: 10px;
+    margin: 30px;
+    gap: 20px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .add_button{
-    position: absolute;
+    position: fixed;
     bottom: 0;right: 0;
     margin:20px
+}
+div.inp_grp{
+    display: flex;
+    flex-direction: column;
 }
