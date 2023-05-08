@@ -6,4 +6,4 @@ After all installation to start the frontedn use following commad
 > npm start
 
 # WebApp Screenshot 📸
-![Screenshot](libScreenshot.png)
+![Screenshot](./libScreenshot.png)
